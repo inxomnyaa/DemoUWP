@@ -1,0 +1,43 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="DemoUWP.Views.TelerikDataGridPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    xmlns:prismMvvm="using:Prism.Windows.Mvvm"
+    prismMvvm:ViewModelLocator.AutoWireViewModel="True" 
+    xmlns:tg="using:Telerik.UI.Xaml.Controls.Grid"
+    xmlns:model="using:DemoUWP.Core.Models"
+    mc:Ignorable="d">
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <Grid
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <tg:RadDataGrid x:ConnectionId='3' ColumnDataOperationsMode="Flyout" x:Name="grid"                                                      AutoGenerateColumns="False" >
+                <tg:RadDataGrid.Columns>
+                    <!--TODO WTS:
+                      Remove this column definitions and define columns for your data.
+                      Consider adding header properties to Resources.resw-->
+                    <tg:DataGridTextColumn PropertyName="OrderID" />
+                    <tg:DataGridDateColumn PropertyName="OrderDate" />
+                    <tg:DataGridTextColumn PropertyName="Company" />
+                    <tg:DataGridTextColumn PropertyName="ShipTo" />
+                    <tg:DataGridNumericalColumn PropertyName="OrderTotal" />
+                    <tg:DataGridTextColumn PropertyName="Status" />
+                    <tg:DataGridTemplateColumn Header="Symbol">
+                        <tg:DataGridTemplateColumn.CellContentTemplate>
+                            <DataTemplate                               >
+                                <FontIcon x:ConnectionId='5'
+                                      HorizontalAlignment="Left"
+                                      Margin="{StaticResource MediumLeftRightMargin}"
+                                      FontFamily="{ThemeResource SymbolThemeFontFamily}"
+                                                              />
+                            </DataTemplate>
+                        </tg:DataGridTemplateColumn.CellContentTemplate>
+                    </tg:DataGridTemplateColumn>
+                </tg:RadDataGrid.Columns>
+            </tg:RadDataGrid>
+        </Grid>
+    </Grid>
+</Page>
+
