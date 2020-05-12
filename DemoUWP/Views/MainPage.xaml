@@ -11,6 +11,8 @@
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <TextBox HorizontalAlignment="Left" Margin="32,121,0,0" Text="Command" TextWrapping="Wrap" VerticalAlignment="Top" Width="336" Name="Command"/>
+            <Button Content="Run &gt;" Margin="368,121,0,0" VerticalAlignment="Top" Name="RunCommandButton" Click="RunCommandButton_Click"/>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.

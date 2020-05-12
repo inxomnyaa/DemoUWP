@@ -1,0 +1,9 @@
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\DemoUWP.Tests.xUnit.csprojAssemblyReference.cache
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\UnitTestApp.g.i.cs
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\UnitTestApp.g.cs
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\UnitTestApp.xaml
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xaml
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\UnitTestApp.xbf
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Tests.xUnit\obj\x86\Debug\XamlSaveStateFile.xml

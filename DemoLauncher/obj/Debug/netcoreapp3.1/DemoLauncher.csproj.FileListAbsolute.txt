@@ -1,0 +1,13 @@
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.exe
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.deps.json
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.runtimeconfig.json
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.runtimeconfig.dev.json
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.dll
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.pdb
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.csprojAssemblyReference.cache
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.csproj.CoreCompileInputs.cache
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.AssemblyInfoInputs.cache
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.AssemblyInfo.cs
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.dll
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.pdb
+C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.genruntimeconfig.cache

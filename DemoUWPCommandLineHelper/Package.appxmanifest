@@ -3,8 +3,9 @@
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap iot">
 
   <Identity
@@ -40,6 +41,16 @@
         <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Images\SplashScreen.png" />
       </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="DemoLauncher\DemoLauncher.exe">
+          <desktop:FullTrustProcess>
+            <desktop:ParameterGroup GroupId="CMDGroup" Parameters="cmd.exe"/>
+          </desktop:FullTrustProcess>
+        </desktop:Extension>
+        <!--uap:Extension Category="windows.appService">
+          <uap:AppService Name="DemoInteropService" />
+        </uap:Extension//-->
+      </Extensions>
     </Application>
   </Applications>
 
