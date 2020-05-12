@@ -13,10 +13,13 @@
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
             <TextBox HorizontalAlignment="Left" Margin="32,121,0,0" Text='/c "echo hi"' TextWrapping="Wrap" VerticalAlignment="Top" Width="336" Name="Command" PlaceholderText="CMD.exe parameters"/>
             <Button Content="Run &gt;" Margin="368,121,0,0" VerticalAlignment="Top" Name="RunCommandButton" Click="RunCommandButton_Click"/>
-            <TextBlock HorizontalAlignment="Left" Margin="32,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Run "/><Run Text="CMD with parameters"/></TextBlock>
-            <TextBlock HorizontalAlignment="Left" Margin="32,158,0,0" Text="Run Apps" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <Button Content="Launch Remote Desktop" Margin="32,182,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-            <Button Content="Taskkill cmd" Margin="32,219,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top">Run CMD with parameters</TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="32,219,0,0" Text="Run Apps" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button Content="Launch Remote Desktop" Margin="32,243,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="Taskkill cmd" Margin="32,280,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <TextBox HorizontalAlignment="Left" Margin="32,182,0,0" Text='powershell.exe' TextWrapping="Wrap" VerticalAlignment="Top" Width="336" x:Name="Command_Copy" PlaceholderText="CLI command"/>
+            <Button Content="Run &gt;" Margin="368,182,0,0" VerticalAlignment="Top" x:Name="RunCommandButton_Copy" Click="RunCommandButtonCopy_Click"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top">Run app from CLI</TextBlock>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.

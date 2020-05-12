@@ -11,16 +11,13 @@ namespace DemoLauncher
 {
     class Program
     {
+        private static Process newProcess = null;
         static void Main(string[] args)
         {
-            foreach (var item in args)
-            {
-                Debug.WriteLine(item.ToString());
-            }
+            AppDomain.CurrentDomain.ProcessExit += new EventHandler(CurrentDomain_ProcessExit);
             try
             {
                 // process object to keep track of your child process
-                Process newProcess = null;
 
                 if (args.Length > 2)
                 {
@@ -75,6 +72,14 @@ namespace DemoLauncher
                 Console.ReadLine();
             }
 
+        }
+        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Exit!");
+            if (newProcess != null)
+            {
+                newProcess.Close();
+            }
         }
     }
 }

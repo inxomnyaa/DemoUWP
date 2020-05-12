@@ -37,6 +37,23 @@ namespace DemoUWP.Views
             }
         }
 
+        private async void RunCommandButtonCopy_Click(object sender, RoutedEventArgs e)
+        {
+            //Button button = (Button)sender;
+            TextBox commandTextBox = (TextBox)Command_Copy;
+            string command = "/c \""+commandTextBox.Text+"\"";
+            Debug.WriteLine(command);
+            if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
+            {
+                //await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMDGroup");
+                // store command line parameters in local settings
+                // so the Lancher can retrieve them and pass them on
+                ApplicationData.Current.LocalSettings.Values["parameters"] = command;
+
+                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMD");
+            }
+        }
+
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
