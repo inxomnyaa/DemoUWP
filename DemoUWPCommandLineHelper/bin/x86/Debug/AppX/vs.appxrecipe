@@ -20,7 +20,7 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWPCommandLineHelper\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4177A29B8EA70F0988A7E30A3BE53EEB10B0EA023C5182C0BBA69740CF60E4D4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>466EA7D96FC0B789414872496BA2381F2E705FFBDDA6315F4545D8AF717DE966</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ed020bfb-63e0-4da4-8c3a-13efbac15e27_1.0.0.0_x86__hwmd5yy5j86jy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ed020bfb-63e0-4da4-8c3a-13efbac15e27_hwmd5yy5j86jy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ed020bfb-63e0-4da4-8c3a-13efbac15e27</RegisteredPackageID>
@@ -31,7 +31,7 @@
     <AppXManifest Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWPCommandLineHelper\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-12T02:19:59.188</Modified>
+      <Modified>2020-05-12T04:41:37.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -75,27 +75,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWPCommandLineHelper\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-12T01:49:24.601</Modified>
+      <Modified>2020-05-12T03:47:31.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\Msix\DemoLauncher.deps.json">
       <PackagePath>DemoLauncher\DemoLauncher.deps.json</PackagePath>
-      <Modified>2020-05-12T01:49:18.943</Modified>
+      <Modified>2020-05-12T03:47:25.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.exe">
       <PackagePath>DemoLauncher\DemoLauncher.exe</PackagePath>
-      <Modified>2020-05-12T02:19:46.205</Modified>
+      <Modified>2020-05-12T04:41:12.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\obj\Debug\netcoreapp3.1\DemoLauncher.dll">
       <PackagePath>DemoLauncher\DemoLauncher.dll</PackagePath>
-      <Modified>2020-05-12T02:19:46.195</Modified>
+      <Modified>2020-05-12T04:41:12.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoLauncher\bin\Debug\netcoreapp3.1\DemoLauncher.runtimeconfig.json">
       <PackagePath>DemoLauncher\DemoLauncher.runtimeconfig.json</PackagePath>
-      <Modified>2020-05-12T01:48:42.323</Modified>
+      <Modified>2020-05-12T03:46:49.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\DemoUWP.exe">
       <PackagePath>entrypoint\DemoUWP.exe</PackagePath>
-      <Modified>2020-05-12T02:19:54.076</Modified>
+      <Modified>2020-05-12T04:41:31.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -223,7 +223,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.dll">
       <PackagePath>DemoUWP.Core.dll</PackagePath>
-      <Modified>2020-05-12T01:48:42.122</Modified>
+      <Modified>2020-05-12T03:46:48.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.1.7\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
@@ -563,87 +563,87 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\DemoUWP.xr.xml">
       <PackagePath>DemoUWP.xr.xml</PackagePath>
-      <Modified>2020-05-11T23:28:40.572</Modified>
+      <Modified>2020-05-12T03:37:02.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.137</Modified>
+      <Modified>2020-05-12T04:41:24.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\CmdLineActivationSamplePage.xbf">
       <PackagePath>Views\CmdLineActivationSamplePage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.109</Modified>
+      <Modified>2020-05-12T04:41:24.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\FirstRunDialog.xbf">
       <PackagePath>Views\FirstRunDialog.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\MasterDetailDetailControl.xbf">
       <PackagePath>Views\MasterDetailDetailControl.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.118</Modified>
+      <Modified>2020-05-12T04:41:24.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\MasterDetailPage.xbf">
       <PackagePath>Views\MasterDetailPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.138</Modified>
+      <Modified>2020-05-12T04:41:24.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\SchemeActivationSamplePage.xbf">
       <PackagePath>Views\SchemeActivationSamplePage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.139</Modified>
+      <Modified>2020-05-12T04:41:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.139</Modified>
+      <Modified>2020-05-12T04:41:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.139</Modified>
+      <Modified>2020-05-12T04:41:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.139</Modified>
+      <Modified>2020-05-12T04:41:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Views\WhatsNewDialog.xbf">
       <PackagePath>Views\WhatsNewDialog.xbf</PackagePath>
-      <Modified>2020-05-12T02:11:52.139</Modified>
+      <Modified>2020-05-12T04:41:24.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -659,7 +659,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP\bin\x86\Debug\Core\DemoUWP.exe">
       <PackagePath>DemoUWP.exe</PackagePath>
-      <Modified>2020-05-12T02:19:57.436</Modified>
+      <Modified>2020-05-12T04:41:35.055</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

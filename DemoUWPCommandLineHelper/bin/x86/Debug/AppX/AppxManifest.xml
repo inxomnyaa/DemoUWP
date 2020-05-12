@@ -34,9 +34,13 @@
       <Extensions>
         <desktop:Extension Category="windows.fullTrustProcess" Executable="DemoLauncher\DemoLauncher.exe">
           <desktop:FullTrustProcess>
-            <desktop:ParameterGroup GroupId="CMDGroup" Parameters="cmd.exe" />
+            <desktop:ParameterGroup GroupId="RemoteDesktop" Parameters="/mstsc" />
+            <desktop:ParameterGroup GroupId="CMD" Parameters="/cmd" />
           </desktop:FullTrustProcess>
         </desktop:Extension>
+        <!--uap:Extension Category="windows.appService">
+          <uap:AppService Name="DemoInteropService" />
+        </uap:Extension//-->
       </Extensions>
     </Application>
   </Applications>

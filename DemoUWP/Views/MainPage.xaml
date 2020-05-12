@@ -11,8 +11,12 @@
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-            <TextBox HorizontalAlignment="Left" Margin="32,121,0,0" Text="Command" TextWrapping="Wrap" VerticalAlignment="Top" Width="336" Name="Command"/>
+            <TextBox HorizontalAlignment="Left" Margin="32,121,0,0" Text='/c "echo hi"' TextWrapping="Wrap" VerticalAlignment="Top" Width="336" Name="Command" PlaceholderText="CMD.exe parameters"/>
             <Button Content="Run &gt;" Margin="368,121,0,0" VerticalAlignment="Top" Name="RunCommandButton" Click="RunCommandButton_Click"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Run "/><Run Text="CMD with parameters"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="32,158,0,0" Text="Run Apps" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button Content="Launch Remote Desktop" Margin="32,182,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="Taskkill cmd" Margin="32,219,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.

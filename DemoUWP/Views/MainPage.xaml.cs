@@ -7,6 +7,7 @@ using Windows.Foundation.Metadata;
 using Windows.UI.Xaml;
 using System.IO;
 using Windows.ApplicationModel;
+using Windows.Storage;
 
 namespace DemoUWP.Views
 {
@@ -27,7 +28,33 @@ namespace DemoUWP.Views
             Debug.WriteLine(command);
             if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
             {
-                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMDGroup");
+                //await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMDGroup");
+                // store command line parameters in local settings
+                // so the Lancher can retrieve them and pass them on
+                ApplicationData.Current.LocalSettings.Values["parameters"] = command;
+
+                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMD");
+            }
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
+            {
+                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("RemoteDesktop");
+            }
+        }
+
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
+            {
+                //await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMDGroup");
+                // store command line parameters in local settings
+                // so the Lancher can retrieve them and pass them on
+                ApplicationData.Current.LocalSettings.Values["parameters"] = "/c \"taskkill /IM cmd.exe /F\"";
+
+                await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("CMD");
             }
         }
     }

@@ -1,7 +1,6 @@
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.deps.json
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.dll
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\bin\Debug\netstandard2.0\DemoUWP.Core.pdb
-C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.csprojAssemblyReference.cache
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.csproj.CoreCompileInputs.cache
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.AssemblyInfoInputs.cache
 C:\Users\XenialDan\Source\Repos\DemoUWP\DemoUWP.Core\obj\Debug\netstandard2.0\DemoUWP.Core.AssemblyInfo.cs
